@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    color: white;
+    overflow-x: hidden;
+}
+
+.wallpaper {
+    position: fixed;
+    height: 100%;
+    width: 103%;
+}
+
+.title {
+    position: relative;
+    margin-top: 50px;
+}
+
+.description {
+    position: relative;
+}
+
+
+.survey-form {
+    flex-direction: column;
+    position: absolute;
+    background: rgb(44 42 70 / 88%);
+    height: auto;
+    width: 50%;
+    padding: 30px;
+    margin-top: 160px;
+}
+
+.input {
+    padding: 15px;
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.rol {
+    color: #8b758b;
+    padding: 8px;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.recommend {
+    margin-bottom: 10px;
+}
+
+.text-area {
+    padding: 10px;
+    width: 100%;
+}
+
+.submit {
+    margin-top: 10px;
+    background: #37af65;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: none;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
